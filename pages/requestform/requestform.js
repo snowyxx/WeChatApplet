@@ -57,7 +57,7 @@ Page({
     if (e.currentTarget.id === 'sub') this.setData({sub:e.detail.value})
     else if (e.currentTarget.id === 'des'){
       var des = e.detail.value
-      conconle.log(des)      
+      console.log(des)
       this.setData({des_esc:des})
     } 
   },
