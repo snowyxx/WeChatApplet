@@ -39,9 +39,7 @@ Page({
                 console.log(data)
             },
             () => {
-                this.setData(
-                    _this.setData({toastHidden:false})
-                )
+                _this.setData({toastHidden:false})
             }
         )
         app.globalData.sdp =  inputContent
